@@ -1,0 +1,130 @@
+{
+  "short_memories": [
+    {
+      "type": "description",
+      "layer": "short",
+      "content": "User asked: 'what is my name?'",
+      "source_message_index": 0,
+      "strength": 0.0,
+      "created_at": 1763119817,
+      "updated_at": 1763119817,
+      "tags": [
+        "name_query",
+        "personal_info_request",
+        "question"
+      ]
+    },
+    {
+      "type": "description",
+      "layer": "short",
+      "content": "The user wants to know what they are interested in.",
+      "source_message_index": 2,
+      "strength": 0.0,
+      "created_at": 1763119844,
+      "updated_at": 1763119844,
+      "tags": [
+        "intent"
+      ]
+    },
+    {
+      "type": "personal_info",
+      "layer": "short",
+      "content": "what is my name?",
+      "source_message_index": 4,
+      "strength": 0.0,
+      "created_at": 1763119894,
+      "updated_at": 1763119894,
+      "tags": [
+        "name_query",
+        "personal_info"
+      ]
+    },
+    {
+      "type": "task",
+      "layer": "short",
+      "content": "Provide the user with their name (name lookup request).",
+      "source_message_index": 0,
+      "strength": 1.0,
+      "created_at": 1763120232,
+      "updated_at": 1763120232,
+      "tags": [
+        "name",
+        "personal_info",
+        "request"
+      ]
+    }
+  ],
+  "mid_memories": [
+    {
+      "type": "task",
+      "layer": "mid",
+      "content": "Identify or summarize the user's interests based on the current query: 'Nice, what am i interested in?'",
+      "source_message_index": 2,
+      "strength": 0.0,
+      "created_at": 1763119844,
+      "updated_at": 1763119844,
+      "tags": [
+        "interests",
+        "self-awareness",
+        "user-query"
+      ]
+    },
+    {
+      "type": "personal_info",
+      "layer": "mid",
+      "content": "I have planted a ginkgo biloba tree in my garden.",
+      "source_message_index": 0,
+      "strength": 0.0,
+      "created_at": 1763119983,
+      "updated_at": 1763119983,
+      "tags": [
+        "ginkgo",
+        "gardening",
+        "location:garden"
+      ]
+    },
+    {
+      "type": "goal",
+      "layer": "mid",
+      "content": "Obtain information about ginkgo biloba tree.",
+      "source_message_index": 0,
+      "strength": 0.0,
+      "created_at": 1763119983,
+      "updated_at": 1763119983,
+      "tags": [
+        "ginkgo",
+        "information_request"
+      ]
+    }
+  ],
+  "long_memories": [
+    {
+      "type": "personal_info",
+      "layer": "long",
+      "content": "name: Daniel",
+      "source_message_index": 0,
+      "strength": 0.0,
+      "created_at": 1763119666,
+      "updated_at": 1763119666,
+      "tags": [
+        "name",
+        "personal_info",
+        "identity"
+      ]
+    },
+    {
+      "type": "personal_info",
+      "layer": "long",
+      "content": "User likes trees.",
+      "source_message_index": 2,
+      "strength": 0.0,
+      "created_at": 1763119758,
+      "updated_at": 1763119758,
+      "tags": [
+        "preference",
+        "nature",
+        "trees"
+      ]
+    }
+  ]
+}
