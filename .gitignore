@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# variables
+.env
+
+# IDEs
+.vscode
+.idea
+.cursor
+
+# pytest
+.pytest_cache
+
+# ruff
+.ruff_cache
+
+# pyright
+.pyrightconfig
+
+# pyright
+.pyrightconfig
